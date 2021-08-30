@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		302E8BF826DC67C700E4392C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302E8BF726DC67C700E4392C /* AppDelegate.swift */; };
+		302E8BFA26DC67C700E4392C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302E8BF926DC67C700E4392C /* SceneDelegate.swift */; };
+		302E8BFC26DC67C700E4392C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302E8BFB26DC67C700E4392C /* ViewController.swift */; };
+		302E8BFF26DC67C700E4392C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302E8BFD26DC67C700E4392C /* Main.storyboard */; };
+		302E8C0126DC67C800E4392C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 302E8C0026DC67C800E4392C /* Assets.xcassets */; };
+		302E8C0426DC67C800E4392C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302E8C0226DC67C800E4392C /* LaunchScreen.storyboard */; };
+		302E8C0F26DC67C800E4392C /* WiverDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302E8C0E26DC67C800E4392C /* WiverDemoTests.swift */; };
+		302E8C1A26DC67C800E4392C /* WiverDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302E8C1926DC67C800E4392C /* WiverDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		302E8C0B26DC67C800E4392C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 302E8BEC26DC67C700E4392C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 302E8BF326DC67C700E4392C;
+			remoteInfo = WiverDemo;
+		};
+		302E8C1626DC67C800E4392C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 302E8BEC26DC67C700E4392C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 302E8BF326DC67C700E4392C;
+			remoteInfo = WiverDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		302E8BF426DC67C700E4392C /* WiverDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiverDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		302E8BF726DC67C700E4392C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		302E8BF926DC67C700E4392C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		302E8BFB26DC67C700E4392C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		302E8BFE26DC67C700E4392C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		302E8C0026DC67C800E4392C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		302E8C0326DC67C800E4392C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		302E8C0526DC67C800E4392C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302E8C0A26DC67C800E4392C /* WiverDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiverDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		302E8C0E26DC67C800E4392C /* WiverDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiverDemoTests.swift; sourceTree = "<group>"; };
+		302E8C1026DC67C800E4392C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302E8C1526DC67C800E4392C /* WiverDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiverDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		302E8C1926DC67C800E4392C /* WiverDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiverDemoUITests.swift; sourceTree = "<group>"; };
+		302E8C1B26DC67C800E4392C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		302E8BF126DC67C700E4392C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302E8C0726DC67C800E4392C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302E8C1226DC67C800E4392C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		302E8BEB26DC67C700E4392C = {
+			isa = PBXGroup;
+			children = (
+				302E8BF626DC67C700E4392C /* WiverDemo */,
+				302E8C0D26DC67C800E4392C /* WiverDemoTests */,
+				302E8C1826DC67C800E4392C /* WiverDemoUITests */,
+				302E8BF526DC67C700E4392C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		302E8BF526DC67C700E4392C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				302E8BF426DC67C700E4392C /* WiverDemo.app */,
+				302E8C0A26DC67C800E4392C /* WiverDemoTests.xctest */,
+				302E8C1526DC67C800E4392C /* WiverDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		302E8BF626DC67C700E4392C /* WiverDemo */ = {
+			isa = PBXGroup;
+			children = (
+				302E8BF726DC67C700E4392C /* AppDelegate.swift */,
+				302E8BF926DC67C700E4392C /* SceneDelegate.swift */,
+				302E8BFB26DC67C700E4392C /* ViewController.swift */,
+				302E8BFD26DC67C700E4392C /* Main.storyboard */,
+				302E8C0026DC67C800E4392C /* Assets.xcassets */,
+				302E8C0226DC67C800E4392C /* LaunchScreen.storyboard */,
+				302E8C0526DC67C800E4392C /* Info.plist */,
+			);
+			path = WiverDemo;
+			sourceTree = "<group>";
+		};
+		302E8C0D26DC67C800E4392C /* WiverDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				302E8C0E26DC67C800E4392C /* WiverDemoTests.swift */,
+				302E8C1026DC67C800E4392C /* Info.plist */,
+			);
+			path = WiverDemoTests;
+			sourceTree = "<group>";
+		};
+		302E8C1826DC67C800E4392C /* WiverDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				302E8C1926DC67C800E4392C /* WiverDemoUITests.swift */,
+				302E8C1B26DC67C800E4392C /* Info.plist */,
+			);
+			path = WiverDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		302E8BF326DC67C700E4392C /* WiverDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302E8C1E26DC67C800E4392C /* Build configuration list for PBXNativeTarget "WiverDemo" */;
+			buildPhases = (
+				302E8BF026DC67C700E4392C /* Sources */,
+				302E8BF126DC67C700E4392C /* Frameworks */,
+				302E8BF226DC67C700E4392C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiverDemo;
+			productName = WiverDemo;
+			productReference = 302E8BF426DC67C700E4392C /* WiverDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		302E8C0926DC67C800E4392C /* WiverDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302E8C2126DC67C800E4392C /* Build configuration list for PBXNativeTarget "WiverDemoTests" */;
+			buildPhases = (
+				302E8C0626DC67C800E4392C /* Sources */,
+				302E8C0726DC67C800E4392C /* Frameworks */,
+				302E8C0826DC67C800E4392C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				302E8C0C26DC67C800E4392C /* PBXTargetDependency */,
+			);
+			name = WiverDemoTests;
+			productName = WiverDemoTests;
+			productReference = 302E8C0A26DC67C800E4392C /* WiverDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		302E8C1426DC67C800E4392C /* WiverDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302E8C2426DC67C800E4392C /* Build configuration list for PBXNativeTarget "WiverDemoUITests" */;
+			buildPhases = (
+				302E8C1126DC67C800E4392C /* Sources */,
+				302E8C1226DC67C800E4392C /* Frameworks */,
+				302E8C1326DC67C800E4392C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				302E8C1726DC67C800E4392C /* PBXTargetDependency */,
+			);
+			name = WiverDemoUITests;
+			productName = WiverDemoUITests;
+			productReference = 302E8C1526DC67C800E4392C /* WiverDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		302E8BEC26DC67C700E4392C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					302E8BF326DC67C700E4392C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					302E8C0926DC67C800E4392C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 302E8BF326DC67C700E4392C;
+					};
+					302E8C1426DC67C800E4392C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 302E8BF326DC67C700E4392C;
+					};
+				};
+			};
+			buildConfigurationList = 302E8BEF26DC67C700E4392C /* Build configuration list for PBXProject "WiverDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 302E8BEB26DC67C700E4392C;
+			productRefGroup = 302E8BF526DC67C700E4392C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				302E8BF326DC67C700E4392C /* WiverDemo */,
+				302E8C0926DC67C800E4392C /* WiverDemoTests */,
+				302E8C1426DC67C800E4392C /* WiverDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		302E8BF226DC67C700E4392C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302E8C0426DC67C800E4392C /* LaunchScreen.storyboard in Resources */,
+				302E8C0126DC67C800E4392C /* Assets.xcassets in Resources */,
+				302E8BFF26DC67C700E4392C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302E8C0826DC67C800E4392C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302E8C1326DC67C800E4392C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		302E8BF026DC67C700E4392C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302E8BFC26DC67C700E4392C /* ViewController.swift in Sources */,
+				302E8BF826DC67C700E4392C /* AppDelegate.swift in Sources */,
+				302E8BFA26DC67C700E4392C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302E8C0626DC67C800E4392C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302E8C0F26DC67C800E4392C /* WiverDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302E8C1126DC67C800E4392C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302E8C1A26DC67C800E4392C /* WiverDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		302E8C0C26DC67C800E4392C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 302E8BF326DC67C700E4392C /* WiverDemo */;
+			targetProxy = 302E8C0B26DC67C800E4392C /* PBXContainerItemProxy */;
+		};
+		302E8C1726DC67C800E4392C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 302E8BF326DC67C700E4392C /* WiverDemo */;
+			targetProxy = 302E8C1626DC67C800E4392C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		302E8BFD26DC67C700E4392C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				302E8BFE26DC67C700E4392C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		302E8C0226DC67C800E4392C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				302E8C0326DC67C800E4392C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		302E8C1C26DC67C800E4392C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		302E8C1D26DC67C800E4392C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		302E8C1F26DC67C800E4392C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHMNAPQ6N7;
+				INFOPLIST_FILE = WiverDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dongjune.WiverDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		302E8C2026DC67C800E4392C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHMNAPQ6N7;
+				INFOPLIST_FILE = WiverDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dongjune.WiverDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		302E8C2226DC67C800E4392C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHMNAPQ6N7;
+				INFOPLIST_FILE = WiverDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dongjune.WiverDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiverDemo.app/WiverDemo";
+			};
+			name = Debug;
+		};
+		302E8C2326DC67C800E4392C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHMNAPQ6N7;
+				INFOPLIST_FILE = WiverDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dongjune.WiverDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiverDemo.app/WiverDemo";
+			};
+			name = Release;
+		};
+		302E8C2526DC67C800E4392C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHMNAPQ6N7;
+				INFOPLIST_FILE = WiverDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dongjune.WiverDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WiverDemo;
+			};
+			name = Debug;
+		};
+		302E8C2626DC67C800E4392C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHMNAPQ6N7;
+				INFOPLIST_FILE = WiverDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dongjune.WiverDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WiverDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		302E8BEF26DC67C700E4392C /* Build configuration list for PBXProject "WiverDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302E8C1C26DC67C800E4392C /* Debug */,
+				302E8C1D26DC67C800E4392C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		302E8C1E26DC67C800E4392C /* Build configuration list for PBXNativeTarget "WiverDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302E8C1F26DC67C800E4392C /* Debug */,
+				302E8C2026DC67C800E4392C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		302E8C2126DC67C800E4392C /* Build configuration list for PBXNativeTarget "WiverDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302E8C2226DC67C800E4392C /* Debug */,
+				302E8C2326DC67C800E4392C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		302E8C2426DC67C800E4392C /* Build configuration list for PBXNativeTarget "WiverDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302E8C2526DC67C800E4392C /* Debug */,
+				302E8C2626DC67C800E4392C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 302E8BEC26DC67C700E4392C /* Project object */;
+}
